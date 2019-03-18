@@ -1,6 +1,6 @@
 const socket = new WebSocket("ws://localhost:8080/ws")
 
-const connect = () => {
+const connect = callback => {
   console.log("Connecting to Zapper API...")
 
   socket.onopen = () => {
@@ -9,6 +9,7 @@ const connect = () => {
 
   socket.onmessage = msg => {
     console.log(msg)
+    callback(msg)
   }
 
   socket.onclose = event => {
