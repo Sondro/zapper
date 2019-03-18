@@ -847,6 +847,11 @@
     "@babel/plugin-transform-react-jsx-self" "^7.0.0"
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
+"@babel/preset-stage-1@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@babel/preset-stage-1/-/preset-stage-1-7.0.0.tgz#e06be32a4055739f355057473ccbbb969e52d12c"
+  integrity sha512-5uQtayYgYrdHJIpwN8c4FH1kIStsL2/n1EBs7UU/nctswPLHSNNDUaslYlJvMFqlB5tGejnXLKKj0Jn/+aitUw==
+
 "@babel/preset-typescript@7.1.0":
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/@babel/preset-typescript/-/preset-typescript-7.1.0.tgz#49ad6e2084ff0bfb5f1f7fb3b5e76c434d442c7f"
