@@ -1,8 +1,14 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import logo from './logo.svg'
+import './App.css'
+import { connect, sendMessage } from './services/api'
 
 class App extends Component {
+  constructor (props) {
+    super(props)
+    connect()
+  }
+
   render() {
     return (
       <div className="App">
