@@ -1,9 +1,13 @@
 import React from 'react'
 import Routes from './../Routes'
 
+import ChatProvider from './../../context/Chat'
+
 const App = () => (
   <main>
-    <Routes />
+    <ChatProvider>
+      <Routes />
+    </ChatProvider>
   </main>
 )
 
